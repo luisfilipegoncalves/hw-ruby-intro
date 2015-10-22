@@ -30,12 +30,14 @@ end
 
 # Part 2
 
+# Define a method hello(name) that takes a string representing a name and
+# returns the string "Hello, " concatenated with the name.
 def hello(name)
-  # YOUR CODE HERE
+  "Hello, " + name
 end
 
 def starts_with_consonant? s
-  # YOUR CODE HERE
+  /^[|aeiou]/.match s
 end
 
 def binary_multiple_of_4? s
